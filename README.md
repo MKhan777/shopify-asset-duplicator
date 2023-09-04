@@ -22,7 +22,7 @@ In this part, you will update a React application.
 
 8. This is what the final result should look like
 
-https://github.com/kzitouni/test-assignment/assets/45524856/7fd83491-7720-402f-8bef-b9885dd3ed0e
+https://github.com/kzitouni/test-assignment/assets/45524856/c34a4fbc-7721-476d-adef-da5196426b14
 
 ## Part 2: Vanilla JavaScript
 
