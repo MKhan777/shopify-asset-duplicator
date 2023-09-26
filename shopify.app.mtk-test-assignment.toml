@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "mtk-test-assignment"
+client_id = "ba421182aafa30226cfd774f9272d724"
+application_url = "https://monte-indicators-rt-skins.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products,read_script_tags,write_script_tags,read_themes,write_themes,read_orders,write_orders"
+
+[auth]
+redirect_urls = [
+  "https://monte-indicators-rt-skins.trycloudflare.com/auth/callback",
+  "https://monte-indicators-rt-skins.trycloudflare.com/auth/shopify/callback",
+  "https://monte-indicators-rt-skins.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "walqalum.myshopify.com"
